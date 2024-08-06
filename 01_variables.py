@@ -58,5 +58,9 @@ test_dict = {'a': 1, 'b': 2}
 print(test_dict)
 
 # set
+# consider the values in an arbitrary way
 test_set = {'a', 'b', 'abc'}
 print(test_set)
+
+# type() function
+print(type(test_dict))
