@@ -65,3 +65,31 @@ print(test_set)
 # type() function
 print(type(test_dict))
 print(type(print))
+
+# Operations
+# Add
+# Sub
+# Multi
+# Divide
+# Integer division
+# Modulo division
+
+# Add
+a = 42
+b = 45.34
+c = a + b
+print(c)
+
+# Sub
+d = a - b
+print(d)
+
+# Multi
+e = a * b
+print(e)
+
+# Divided
+f = 12
+g = 3
+h = f / g
+print(h)
