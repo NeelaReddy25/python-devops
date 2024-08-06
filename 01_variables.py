@@ -34,3 +34,6 @@ This is a multi line string
 # Today's weather is nice
 d = 'Today\'s weather is nice'
 print(d)
+
+d = "Today's weather is nice"
+print(d)
