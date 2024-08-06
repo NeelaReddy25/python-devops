@@ -92,4 +92,4 @@ print(e)
 f = 12
 g = 3
 h = f / g
-print(h)
+print(h,type(h))
