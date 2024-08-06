@@ -64,3 +64,4 @@ print(test_set)
 
 # type() function
 print(type(test_dict))
+print(type(print))
