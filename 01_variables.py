@@ -93,3 +93,7 @@ f = 12
 g = 3
 h = f / g
 print(h,type(h))
+
+# Integer
+h = f // g
+print(h)
