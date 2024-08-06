@@ -106,3 +106,8 @@ print(i)
 a = "42"
 b = "43"
 print(a + b) # Concatenation
+
+# Addition
+a = "42"
+b = "43"
+print(a + " " + b) # Concatenation
