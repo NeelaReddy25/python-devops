@@ -111,3 +111,8 @@ print(a + b) # Concatenation
 a = "42"
 b = "43"
 print(a + " " + b) # Concatenation
+
+# Sub
+a = "42"
+b = "43"
+print(a - b) # Concatenation
