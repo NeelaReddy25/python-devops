@@ -80,15 +80,12 @@ b = 45.34
 c = a + b
 print(c)
 
-# Sub
 d = a - b
 print(d)
 
-# Multi
 e = a * b
 print(e)
 
-# Divided
 f = 12
 g = 3
 h = f / g
