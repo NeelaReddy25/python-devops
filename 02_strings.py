@@ -28,3 +28,9 @@ print("Reversed string:", sub_str)
 # Length of a string
 len_str = len(sample_str)
 print("Length of a string:", len_str)
+
+# Method
+sample_str = "hello"
+print(sample_str.capitalize()) # "Hello"
+
+
