@@ -53,5 +53,5 @@ ValueError: tuple.index(x): x not in tuple
 """
 
 # Tuple unpacking
-ansible, terraform, jenkins, docker, k8s = ("Ansible", "Terraform", "Jenkins", "Docker", "K8s", "Terraform", "Jenkins")
+ansible, terraform, jenkins, docker, k8s = ("Ansible", "Terraform", "Jenkins", "Docker", "K8s")
 print(ansible, terraform, jenkins, docker, k8s)
