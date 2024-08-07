@@ -125,3 +125,12 @@ print(a + " " + b) # Concatenation
 # power
 a = 10
 print(a**2) #a^2
+
+# Comparison operator
+a = 10
+b = 20
+res = a > b
+res_1 = a < b
+res_2 = a != b
+res_3 = a == b
+print(res, res_1, res_2, res_3)
