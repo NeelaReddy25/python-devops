@@ -117,6 +117,11 @@ print(a + " " + b) # Concatenation
 # b = "43"
 # print(a * b) # Concatenation
 
+# # Multi
+# a = "42"
+# b = "43"
+# print(a**b) # Concatenation
+
 # power
 a = 10
 print(a**2) #a^2
