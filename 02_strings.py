@@ -51,4 +51,4 @@ str_split = sample_str.split(" ") # Output: list
 print(str_split, type(str_split))
 
 join_split_str = " ".join(str_split)
-print(joint_split_str, type(join_split_str))
+print(join_split_str, type(join_split_str))
