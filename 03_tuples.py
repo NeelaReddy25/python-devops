@@ -20,5 +20,17 @@ print(sliced_tuple_len)
 sliced_tuple_len = len(sliced_tuple)
 print(sliced_tuple_len)
 
-sample_tuple[1] = "Shell"
-print(sample_tuple)
+# sample_tuple[1] = "Shell"
+# print(sample_tuple)
+
+"""
+Traceback (most recent call last):
+  File "C:\devops\daws-78s\repos\python-devops\03_tuples.py", line 23, in <module>
+    sample_tuple[1] = "Shell"
+    ~~~~~~~~~~~~^^^
+TypeError: 'tuple' object does not support item assignment
+"""
+
+# Operations
+res_tuple = sample_tuple + sliced_tuple
+print(res_tuple) # ("Ansible", "Terraform", "Jenkins", "Docker", "K8s", "Terraform", "Jenkins")
