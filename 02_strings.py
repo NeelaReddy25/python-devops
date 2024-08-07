@@ -45,3 +45,7 @@ print(sample_str, type(str_split))
 sample_str = "This is a sample string"
 str_split = sample_str.split(" ") # Output: list
 print(sample_str, type(str_split))
+
+sample_str = "This is a sample string"
+str_split = sample_str.split(" ") # Output: list
+print(str_split, type(str_split))
