@@ -113,6 +113,29 @@ b = "43"
 print(a + " " + b) # Concatenation
 
 # Sub
-a = "42"
-b = "43"
-print(a * b) # Concatenation
+# a = "42"
+# b = "43"
+# print(a * b) # Concatenation
+
+# power
+a = 10
+print(a**2) #a^2
+
+# Comparison operator
+a = 10
+b = 20
+res = a > b
+res_1 = a < b
+res_2 = a != b
+res_3 = a == b
+print(res, res_1, res_2, res_3)
+
+# Logical operators
+# AND, NOT, OR
+a = True
+b = False
+res = a and b
+res_1 = a or b
+res_2 = not a
+res_3 = not b
+print(res, res_1, res_2, res_3)
