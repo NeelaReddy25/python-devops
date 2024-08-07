@@ -38,5 +38,7 @@ sample_str = "This-is-a-sample-string"
 str_split = sample_str.split() # Output: list
 print(sample_str, type(str_split))
 
-
+sample_str = "This is a sample string"
+str_split = sample_str.split() # Output: list
+print(sample_str, type(str_split))
 
