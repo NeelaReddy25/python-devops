@@ -37,3 +37,6 @@ print(res_tuple) # ("Ansible", "Terraform", "Jenkins", "Docker", "K8s", "Terrafo
 
 res_tuple_1 = sliced_tuple * 2
 print(res_tuple_1)
+
+k8s_idx = res_tuple.index("K8s")
+print(k8s_idx)
