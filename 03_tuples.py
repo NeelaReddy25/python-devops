@@ -41,5 +41,17 @@ print(res_tuple_1)
 k8s_idx = res_tuple.index("K8s")
 print(k8s_idx)
 
-k8s_idx = res_tuple.index("k8s")
-print(k8s_idx)
+# k8s_idx = res_tuple.index("k8s")
+# print(k8s_idx)
+
+"""
+Traceback (most recent call last):
+  File "C:\devops\daws-78s\repos\python-devops\03_tuples.py", line 44, in <module>
+    k8s_idx = res_tuple.index("k8s")
+              ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: tuple.index(x): x not in tuple
+"""
+
+# Tuple unpacking
+ansible, terraform, jenkins, docker, k8s = ("Ansible", "Terraform", "Jenkins", "Docker", "K8s", "Terraform", "Jenkins")
+print(ansible, terraform, jenkins, docker, k8s)
