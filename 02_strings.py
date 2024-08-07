@@ -64,3 +64,11 @@ print(strip_str)
 sample_str = "This is a sample string"
 sample_str[-1] = 'G'
 print(sample_str)
+
+"""
+Traceback (most recent call last):
+  File "C:\devops\daws-78s\repos\python-devops\02_strings.py", line 65, in <module>
+    sample_str[-1] = 'G'
+    ~~~~~~~~~~^^^^
+TypeError: 'str' object does not support item assignment
+"""
