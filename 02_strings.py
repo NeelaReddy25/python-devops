@@ -49,3 +49,6 @@ print(sample_str, type(str_split))
 sample_str = "This is a sample string"
 str_split = sample_str.split(" ") # Output: list
 print(str_split, type(str_split))
+
+join_split_str = " ".join(str_split)
+print(joint_split_str, type(join_split_str))
