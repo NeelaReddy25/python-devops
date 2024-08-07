@@ -40,3 +40,6 @@ print(res_tuple_1)
 
 k8s_idx = res_tuple.index("K8s")
 print(k8s_idx)
+
+k8s_idx = res_tuple.index("k8s")
+print(k8s_idx)
