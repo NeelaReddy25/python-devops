@@ -29,7 +29,7 @@ print(dict_keys, dict_values, dict_items)
 # what happens if you access a key that is not present inside a dict
 sample_dict = {"1": 1, 2: 4, 3: 9}
 print(sample_dict.get(1)) # None
-print(sample_dict[1]) # Error
+#print(sample_dict[1]) # Error
 
 """
 Traceback (most recent call last):
