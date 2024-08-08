@@ -30,3 +30,11 @@ print(dict_keys, dict_values, dict_items)
 sample_dict = {"1": 1, 2: 4, 3: 9}
 print(sample_dict.get(1)) # None
 print(sample_dict[1]) # Error
+
+"""
+Traceback (most recent call last):
+  File "C:\devops\daws-78s\repos\python-devops\05_dict.py", line 32, in <module>
+    print(sample_dict[1]) # Error
+          ~~~~~~~~~~~^^^
+KeyError: 1
+"""
