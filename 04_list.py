@@ -53,3 +53,7 @@ print(last_element)
 
 last_element = sample_list[len(sample_list) - 1]
 print(last_element)
+
+# Membership operator
+is_elem = 2 in sample_list
+print(is_elem)
