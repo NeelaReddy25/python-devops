@@ -20,5 +20,16 @@ Traceback (most recent call last):
 TypeError: can only concatenate str (not "int") to str
 """
 
-add_10 = int(user_input) + 10
-print(add_10)
+# add_10 = int(user_input) + 10
+# print(add_10)
+
+"""
+Traceback (most recent call last):
+  File "C:\devops\daws-78s\repos\python-devops\07_type_conversion.py", line 23, in <module>
+    add_10 = int(user_input) + 10
+             ^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '100 500 7999 8999'
+"""
+
+split_input = "100 200 300 400 500".split(" ")
+print(split_input)
