@@ -9,3 +9,5 @@ print(sample_str_tuple)
 user_input = input("Enter a number:")
 print(user_input, type(user_input))
 
+add_10 = user_input + 10
+print(add_10)
