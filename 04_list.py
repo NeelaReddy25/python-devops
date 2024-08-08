@@ -54,6 +54,11 @@ print(last_element)
 last_element = sample_list[len(sample_list) - 1]
 print(last_element)
 
+# Extend
+sample_list = [1, 2, 'sample', True]
+sample_list.extend(sample_list)
+print(len(sample_list), sample_list)
+
 # Membership operator
 is_elem = 2 in sample_list
 print(is_elem)
