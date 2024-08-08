@@ -38,3 +38,7 @@ Traceback (most recent call last):
           ~~~~~~~~~~~^^^
 KeyError: 1
 """
+
+sample_dict = {1: 1, 2: 4, 3: 9}
+sample_dict[4] = 16
+print(sample_dict)
