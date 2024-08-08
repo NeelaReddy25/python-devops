@@ -30,5 +30,12 @@ print(sliced_list)
 sliced_list_len = len(sliced_list)
 print(sliced_list_len)
 
+# List is amutable data type
+# Once defined, it can be altered
 sample_list[1] = "Shell"
+print(sample_list)
+
+# Append element to the list
+sample_list = ["Ansible", "Terraform", "Jenkins", "Docker", "K8s"]
+sample_list.append("Shell")
 print(sample_list)
