@@ -78,3 +78,12 @@ print(res)
 
 res = add(1, 2, 4, num1=5, num2=6)
 print(res)
+
+# Map
+# Filter
+# Lambda
+ 
+# Lambda: inline function
+add_numbers = lambda num1, num2 : num1 + num2
+res = add_numbers(1,2)
+print(res)
