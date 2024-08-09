@@ -24,5 +24,10 @@ sample_list = ["Ansible", "Terraform", "Jenkins", "Docker", "K8s"]
 # for idx in sample_range:
 #     print(idx)
 
+# for idx in range(0, len(sample_list)):
+#     print(idx,sample_list[idx])
+
 for idx in range(0, len(sample_list)):
-    print(idx,sample_list[idx])
+    if sample_list[idx] == "Docker"
+            continue
+    print(idx, sample_list[idx])
