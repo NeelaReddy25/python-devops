@@ -47,5 +47,7 @@ def add(*nums):
 
 # Call the function
 res = add(1, 2, 4)
+print(res)
+
 res = add(1, 2, 4, 5, 6)
 print(res)
