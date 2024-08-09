@@ -70,7 +70,7 @@ def add(*args, **kwargs):
     """
     This function performs addition of 2 numbers
     """
-    print(arg,kwargs)
+    print(args,kwargs)
 
 # Call the function
 res = add(1, 2, 4)
