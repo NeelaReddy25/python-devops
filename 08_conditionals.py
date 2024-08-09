@@ -37,6 +37,6 @@ try:
         print("User input value is greater than 10")
     else:
         print("User input value is less than 10")
-except:
+except ValueError:
     print("Please enter a number")
     
