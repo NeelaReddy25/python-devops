@@ -58,3 +58,6 @@ while idx < len(sample_list):
     print(idx, sample_list[idx])
     idx += 1
 
+sample_dict = {1: 1, 2: 4, 3: 9}
+for k,v in sample_dict.items():
+        print(k,v)
