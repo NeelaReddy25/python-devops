@@ -30,7 +30,7 @@ else:
 
 # Exception handling: try -exec
 try:
-    user_input = int(input("Entera number"))
+    user_input = int(input("Enter a number:"))
     if user_input == 10:
         print("Right on traget")
     elif user_input > 10:
