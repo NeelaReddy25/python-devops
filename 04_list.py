@@ -62,3 +62,37 @@ print(len(sample_list), sample_list)
 # Membership operator
 is_elem = 2 in sample_list
 print(is_elem)
+
+""" 
+>>> sample_list = [1, 2, 'sample', True]
+>>> sample_list.extend(sample_list)
+>>> print(len(sample_list), sample_list)
+8 [1, 2, 'sample', True, 1, 2, 'sample', True]
+>>> sample_list = [1, 2, 'sample', True]
+>>> sample_list.append([4,5])
+>>> print(sample_list)
+[1, 2, 'sample', True, [4, 5]]
+>>> sample_list.extend([4, 5])
+>>> print(sample_list)
+[1, 2, 'sample', True, [4, 5], 4, 5]
+>>> sample_list[-3][-1]
+5
+>>> sample_list[-4][-2] 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'bool' object is not subscriptable
+>>> sample_list[-3][-2] 
+4
+>>> sample_list[-3][-1] 
+5
+>>> sample_list[-3][0] 
+4 
+>>> [1, 2, 'sample', True] + [4, 5]
+[1, 2, 'sample', True, 4, 5]
+>>> sample_list = ["Ansible", "Terraform", "Jenkins", "Docker", "K8s"]
+>>> sample_list.clear()
+>>> sample_list.append("Shell")
+>>> sample_list
+['Shell']
+>>>
+"""
