@@ -18,8 +18,11 @@ sample_list = ["Ansible", "Terraform", "Jenkins", "Docker", "K8s"]
 # sample_range = range(0, len(sample_list))
 # print(sample_range)
 
-sample_range = range(0, len(sample_list))
-print(sample_range, type(sample_range))
+# sample_range = range(0, len(sample_list))
+# print(sample_range, type(sample_range))
 
-for idx in sample_range:
-    print(idx)
+# for idx in sample_range:
+#     print(idx)
+
+for idx in range(0, len(sample_list)):
+    print(idx,sample_list[idx])
