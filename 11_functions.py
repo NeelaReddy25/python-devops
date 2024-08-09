@@ -73,8 +73,8 @@ def add(*args, **kwargs):
     print(arg,kwargs)
 
 # Call the function
-res = add(1, 2, 4, 5)
+res = add(1, 2, 4)
 print(res)
 
-res = add(1, 2, 4, 5, 6)
+res = add(1, 2, 4, num1=5, num2=6)
 print(res)
