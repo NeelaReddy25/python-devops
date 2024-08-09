@@ -43,6 +43,7 @@ def add(*nums):
     This function performs addition of 2 numbers
     """
     res = sum(nums)
+    return res
 
 # Call the function
 res = add(1, 2, 4)
