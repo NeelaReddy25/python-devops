@@ -52,7 +52,7 @@
 # res = add(1, 2, 4, 5, 6)
 # print(res)
 
-def add(num1, num2, *arg):
+def add(num1, num2, *args):
     """
     This function performs addition of 2 numbers
     """
